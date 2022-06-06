@@ -1,0 +1,162 @@
+* {
+    font-family: 'Red Hat Display';
+    src: url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+}
+
+body {
+    background-color: hsl(224, 23%, 55%);
+}
+
+#container {
+    display: grid;
+    place-content: center;
+    margin-top: 70px;
+}
+
+
+.content {
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+    margin-top: -4px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+
+}
+
+#headerr {
+    border: 2px solid border hsl(245, 75%, 52%);
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.para {
+    color: hsl(224, 23%, 55%);
+}
+
+.third {
+    float: right;
+    margin: -10px 10px;
+}
+
+.rap {
+    color: hsl(240, 100%, 50%);
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.second {
+    margin-left: 60px;
+    color: hsl(224, 23%, 55%);
+}
+
+.first {
+    margin-left: 10px;
+    color: hsl(223, 47%, 23%);
+}
+
+#move {
+    margin-bottom: -25px;
+}
+
+.color {
+    background-color:hsl(225, 100%, 94%);
+    padding: 10px;
+    border-radius: 13px;
+    margin-bottom: 10px;
+}
+
+.semi-div {
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+}
+
+.semi-div2 {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.attribution {
+    margin-top: 5px;
+}
+
+/* media */
+
+@media screen and (max-width:375px) {
+    body {
+        max-width: 375px;
+        margin-left: 13px;
+    }
+
+    .joint {
+        width: 350px;
+    }
+
+    #headerr {
+        width: 340px;
+    }
+
+    .content {
+        width: 320px;
+    }
+
+    .mini-com {
+        width: 340px;
+    }
+
+    .color {
+        width: 300px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .semi-div {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .semi-div2 {
+        width: 300px;
+        text-align: center;
+    }
+    
+    .semi-div2 a {
+        color: hsl(224, 23%, 55%);
+    }
+    .attribution {
+        font-size: 11px;
+    }
+     
+    .first {
+        margin-left: 1px;
+    }
+
+    .second {
+        margin-left: 52px;
+    }
+
+    .rap {
+        text-decoration: underline;
+    }
+}
